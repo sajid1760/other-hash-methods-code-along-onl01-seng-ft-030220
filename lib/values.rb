@@ -15,7 +15,7 @@ groceries.each do |category,item|
   values << item
 # end
 end
-values
+values.flatten
 end
 
 puts get_the_values(groceries).inspect
