@@ -14,6 +14,7 @@ groceries.each do |category|
   category.each do |item|
   values << item
 end
+end
 values
 end
 
