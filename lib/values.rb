@@ -16,4 +16,4 @@ end
 groceries.values.flatten
 end
 
-puts get_the_values(groceries)
+puts get_the_values(groceries).inspect
