@@ -11,7 +11,7 @@ require 'pry'
 def get_the_keys(groceries)
   keys = []
 groceries.each do |category|
-  keys << item
+  keys << category
 end
 keys
 end
