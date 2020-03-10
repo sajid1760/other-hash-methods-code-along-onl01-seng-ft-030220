@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   keys = []
-groceries.each do |category|
+groceries.each do |category,item|
   keys << category
 end
 groceries.keys
