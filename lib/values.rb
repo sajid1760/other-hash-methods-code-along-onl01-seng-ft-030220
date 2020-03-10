@@ -13,7 +13,7 @@ def get_the_values(groceries)
 groceries.each do |category,item|
   values << item
 end
-groceries.values
+values
 end
 
 puts get_the_values(groceries).inspect
