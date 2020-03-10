@@ -16,4 +16,4 @@ end
 keys
 end
 
-get_the_keys(groceries)
+puts get_the_keys(groceries)
