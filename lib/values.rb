@@ -18,4 +18,4 @@ end
 values
 end
 
-puts get_the_values(groceries).inspect
+#puts get_the_values(groceries).inspect
