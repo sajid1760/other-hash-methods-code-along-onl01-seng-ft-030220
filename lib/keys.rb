@@ -13,7 +13,7 @@ def get_the_keys(groceries)
 groceries.each do |category,item|
   keys << category
 end
-keys
+groceries.keys
 end
 
 puts get_the_keys(groceries)
